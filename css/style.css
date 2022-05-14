@@ -96,51 +96,43 @@ h1 {
 .demo:hover{
 background-color:cadetblue;
 }
+.title{
+    position: relative;
+    width: 30%;
+    
+}
+ .title h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #28282813;
+}
+ .title h3 {
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  bottom: 0% !important;
+  color: #282828 !important;
+  
+}
+ .title h3::after{
+    content: "";
+    width: 40%;
+    position: absolute;
+    top: 115%;
+    left: 30%;
+    background-color: #282828;;
+    height: 1px;
+    
+}
+.container {
+font-size: 18px;
+color: #999;
+margin-bottom: 70px;
+}
 
-
-.card-img-top{
-    overflow: hidden !important;
-    transition: transform 1s !important;
-  }
-  .card h5{
-    color: #282828
-  }
-  .card .layer{
-    opacity: 0;
-    transition: opacity 0.5s;
-  
-    
-  }
-  .card .layer:hover {
-    opacity: 100 !important;
-    background-color: #f2545487;
-  
-  }
-  .card:hover img{
-    transform: scale(1.2);
-  
-    
-  }
-  .card:hover h5{
-    color: var(--main-color) !important;
-  }
-   .text{
-      height: 50px;
-      font-weight: 400;
-      font-size: 32px;
-      font-family: "Poppins", sans-serif;
-      color: #282828;
-    }
-    .link{
-      width: 15%;
-      color: white;
-      height: 2.5rem;
-    
-    }
-    .link a{
-      font-family: "Open Sans", sans-serif;
-      font-size: 14px;
-      line-height: 1.75em;
-  
-      color: white;
-    }
+.progress{
+ 
+  height: 4px;
+}
+.progress-bar{
+  color: var(--main-color);
+}
