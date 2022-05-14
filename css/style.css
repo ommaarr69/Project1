@@ -96,3 +96,51 @@ h1 {
 .demo:hover{
 background-color:cadetblue;
 }
+
+
+.card-img-top{
+    overflow: hidden !important;
+    transition: transform 1s !important;
+  }
+  .card h5{
+    color: #282828
+  }
+  .card .layer{
+    opacity: 0;
+    transition: opacity 0.5s;
+  
+    
+  }
+  .card .layer:hover {
+    opacity: 100 !important;
+    background-color: #f2545487;
+  
+  }
+  .card:hover img{
+    transform: scale(1.2);
+  
+    
+  }
+  .card:hover h5{
+    color: var(--main-color) !important;
+  }
+   .text{
+      height: 50px;
+      font-weight: 400;
+      font-size: 32px;
+      font-family: "Poppins", sans-serif;
+      color: #282828;
+    }
+    .link{
+      width: 15%;
+      color: white;
+      height: 2.5rem;
+    
+    }
+    .link a{
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      line-height: 1.75em;
+  
+      color: white;
+    }
