@@ -1,18 +1,109 @@
 <html>
 
 <head>
-
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+    <header class="vh-100" id="home">
+        <div id="carouselExampleIndicators" class="carousel slide vh-100" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container">
+                        <a class="navbar-brand" href="#"><img src="images/logo-dark.png" class="w-50" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#team">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#works">Works</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav1" href="#contact">Contact</a>
+                                </li>
+                                <li class="nav-item p-1">
+                                    <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                </li>
+                                <li class="nav-item p-1">
+                                    <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </li>
+                                <li class="nav-item p-1">
+                                    <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+                <div class="carousel-item active home">
+                    <div class="layer-ft">
+                        <div
+                            class="layer text-white text-center position-absolute position-relative top-50 start-50 translate-middle">
+                            <h1>Get Awesome.</h1>
+                            <h4 class="p-1">We are an innovative company making digital stuff.</h4>
+                            <div class="btns p-3">
+                                <button class="btn me-md-2 btn1 " type="button">Read More</button>
+                                <button class="btn btn-tr border-1 border-white btn-light-out"
+                                    type="button">Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="images/bg-image-28.jpg" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item home">
+                    <div
+                        class="layer text-white text-center position-absolute position-relative top-50 start-50 translate-middle">
+                        <h1 class="">Create With Bezel.</h1>
+                        <h4 class="p-1">We help ambitious companies create new value.</h4>
+                        <div class="btns p-3">
+                            <button class="btn me-md-2 btn1" type="button">Hire Us</button>
+                            <button class="btn btn-tr border-1 border-white" type="button">Services</button>
+                        </div>
+                    </div>
+                    <img src="images/bg-image-29.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
 
     <section class="price">
         <div class="title d-flex justify-content-center align-items-center pt-5">
@@ -83,9 +174,9 @@
         </div>
     </section>
 
-    <script src="js/main.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

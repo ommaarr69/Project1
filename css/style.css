@@ -1,0 +1,98 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #00c3da;
+}
+.com-color{
+    color:var(--main-color);
+}
+h1 {
+    font-size: 78px;
+    letter-spacing: -3px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.home img {
+    width: 70%;
+    height: 100vh;
+}
+
+.layer {
+    width: 50%;
+    height: 50%;
+}
+
+.btn {
+    background-color: var(--main-color);
+    color: #fff;
+    width: 18%;
+    height: 17%;
+}
+
+.btn-tr {
+    background-color: transparent;
+}
+
+.btn1:hover {
+    position: absolute;
+    position: relative;
+    top: 5%;
+    right: 1%;
+}
+
+.btn-tr:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.home {
+    position: relative;
+}
+
+.layer-ft {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.544);
+}
+.navbar{    
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    border-bottom: rgba(255, 255, 255, 0.531) 1px solid;
+    border-top: rgba(255, 255, 255, 0.498) 1px solid;
+}
+.nav1{
+    border-right: rgba(255, 255, 255, 0.498) 1px solid;
+}
+
+.price {
+    background-color: rgba(220, 220, 220, 0.326);
+}
+
+.note {
+    width: 250px;
+    margin: auto;
+}
+
+.v-note {
+    width: 250px;
+    height: 500px;
+}
+
+.price-content h2 {
+    font-size: 50px;
+}
+
+.contents {
+    font-size: 15px;
+}
+
+.demo:hover{
+background-color:cadetblue;
+}
